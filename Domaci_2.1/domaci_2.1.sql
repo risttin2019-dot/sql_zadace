@@ -103,7 +103,12 @@ WHERE season = '2024/25'
 ORDER BY kickoff_ts, home_team
 LIMIT 3;
 
--- Ne možemo biti 100% sigurni, na osnovu timestampa, koja je utakmica zapravo krenula prva , ali ukoliko ubacimo drugi kriterijum za sortiranje, kao npr. match_id, možemo dobiti rezultat u upitu koja je utakmica bila upisana prije u raspored odigravanja ili možda da pratimo abecednim rasporedom naziva domaćih timova.
+/*
+Ne možemo biti 100% sigurni, na osnovu timestampa, koja je utakmica zapravo krenula prva , 
+ali ukoliko ubacimo drugi kriterijum za sortiranje, kao npr. match_id, 
+možemo dobiti rezultat u upitu koja je utakmica bila upisana prije u raspored odigravanja
+ili možda da pratimo abecednim redom naziva domaćih timova.
+*/
 
 
 
