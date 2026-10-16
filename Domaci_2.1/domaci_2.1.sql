@@ -16,6 +16,12 @@ SELECT DISTINCT referee_name, home_team
 FROM bootcamp.northern_star.matches_flat
 WHERE home_team = 'Riverton Athletic';
 
+-- ili sa COUNT
+
+SELECT COUNT(DISTINCT referee_name)
+FROM bootcamp.northern_star.matches_flat
+WHERE home_team = 'Riverton Athletic';
+
 -- 15 različitih sudija je sudilo Riverton Athleticu na domaćem terenu.
 
 
@@ -24,6 +30,12 @@ WHERE home_team = 'Riverton Athletic';
 
 SELECT home_team, away_team, home_goals, 
         away_goals, home_goals_ht, away_goals_ht
+FROM bootcamp.northern_star.matches_flat
+WHERE away_goals_ht > home_goals_ht AND home_goals > away_goals;
+
+-- ili sa COUNT
+
+SELECT COUNT(*)
 FROM bootcamp.northern_star.matches_flat
 WHERE away_goals_ht > home_goals_ht AND home_goals > away_goals;
 
@@ -49,6 +61,12 @@ SELECT home_team, away_team, weather
 FROM bootcamp.northern_star.matches_flat
 WHERE season = '2023/24' AND (weather = 'snow' OR weather = 'fog')
 ORDER BY weather;
+
+-- ili sa COUNT
+
+SELECT COUNT(*)
+FROM bootcamp.northern_star.matches_flat
+WHERE season = '2023/24' AND (weather = 'snow' OR weather = 'fog');
 
 -- 25 utakmica je odigrano po snegu ili magli u sezoni 2023/24.
 
@@ -92,6 +110,12 @@ LIMIT 3;
 -- 8. zadatak
 
 SELECT home_team, away_team, home_goals, away_goals, first_goal_scorer
+FROM bootcamp.northern_star.matches_flat
+WHERE first_goal_scorer = "Sean O'Neill";
+
+-- ili sa COUNT
+
+SELECT COUNT(*)
 FROM bootcamp.northern_star.matches_flat
 WHERE first_goal_scorer = "Sean O'Neill";
 
