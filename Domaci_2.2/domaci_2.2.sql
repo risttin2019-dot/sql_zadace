@@ -41,7 +41,7 @@ ORDER BY character_length DESC;
 
 SELECT *
 FROM matches_flat
-WHERE kickoff_ts BETWEEN '2025-01-01 00:00:00' AND '2025-01-16 00:00:00'
+WHERE kickoff_ts >= '2025-01-01 00:00:00' AND kickoff_ts < '2025-01-16 00:00:00'
 ORDER BY kickoff_ts DESC;
 
 -- 31 utakmica je odigrana od 1. do 15. januara 2025. godine.

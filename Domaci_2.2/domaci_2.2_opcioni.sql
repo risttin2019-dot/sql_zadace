@@ -14,7 +14,7 @@ WHERE referee_name IS NULL
 
 SELECT *
 FROM matches_flat
-WHERE DATE(kickoff_ts) BETWEEN '2025-03-01' AND '2025-03-31'
+WHERE kickoff_ts >= '2025-03-01' AND kickoff_ts < '2025-04-01'
 ORDER BY kickoff_ts;
 
 -- 40 utakmica je odigrano u periodu između 1. i 31. marta 2025. godine.
@@ -23,10 +23,9 @@ ORDER BY kickoff_ts;
 
 -- 3. zadatak
 
-SELECT 
-    COUNT(*) AS number_of_matches
+SELECT COUNT(*) AS number_of_matches
 FROM matches_flat
-WHERE DATE(kickoff_ts) BETWEEN '2024-12-20' AND '2025-01-10';
+WHERE kickoff_ts >= '2024-12-20' AND kickoff_ts < '2025-01-11';
 
 -- 51 utakmica je odigrana u periodu između 20. decembra 2024. godine i 10. januara 2025. godine.
 
@@ -45,9 +44,8 @@ FROM matches_flat;
 
 -- 5. zadatak
 
-SELECT *
-FROM matches_flat
-WHERE DATE(kickoff_ts) BETWEEN '2025-04-01' AND '2025-04-30'
+SELECT *FROM matches_flat
+WHERE kickoff_ts >= '2025-04-01' AND kickoff_ts < '2025-05-01'
     AND home_goals + away_goals BETWEEN 2 AND 4
 ORDER BY kickoff_ts;
 
