@@ -34,7 +34,8 @@
     - **Théo Laurent**	5 golova
     - **Callum Walker**	4 gola
 
-    - Najbolji asistent: **Reece Carter** sa 6 asistencija
+
+- Najbolji asistent: **Reece Carter** sa 6 asistencija
 
 ## 4. Disciplina
 
@@ -54,4 +55,30 @@
 
 | Kapacitet   | Prosjek       | Postotak    | Bez publike ili podataka |
 | ----------- | -----------   | ----------- | -----------  |
-| 16.000      | 13.922,89      | 87.02%      | 0           | 
+| 16.000      | 13.922,89     | 87.02%      | 0            | 
+
+
+## Stanje na tabeli na kraju sezone 2024/25:
+
+| Kapacitet         | Prosjek       |
+| ----------------- | -----------   |
+|Northport City	    | 83            |  
+|Kingsbridge City	| 71            |
+|Harrowgate Albion	| 70            |
+|Castlebrook United	| 69            |
+|Stonebridge Rovers	| 69            |
+|Pemberton United	| 67            |
+|Northport United	| 60            |
+|Riverton Athletic	| 56            |
+|Oakfield Town	    | 53            |
+|Lakeside Rangers	| 52            |
+|Thornbury City	    | 49            |
+|Elmsworth Wanderera| 49            |
+|Brackley Athletic	| 45            |
+|Ashford Rovers	    | 42            |
+|Newbury Forest	    | 42            |
+|Redcliffe Athletic	| 39            |
+|Westmere Town	    | 36            |
+|Valemont United	| 35            |
+|Queensport FC	    | 30            |
+|Dunmore Celtic	    | 28            |
