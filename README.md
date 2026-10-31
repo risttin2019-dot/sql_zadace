@@ -11,4 +11,5 @@ Ovaj repozitorijum se koristi za čuvanje i slanje domaćih zadataka iz *SQL-a*.
     - Domaći 4.1 (22.10.2026);
     - Domaći 4.2 (23.10.2026);
     - Domaći 5.1 (26.10.2026);
-    - Domaći 5.2 (27.10.2026).
+    - Domaći 5.2 (27.10.2026);
+    - Domaći 6.1 (29.10.2026). 
